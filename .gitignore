@@ -1,0 +1,45 @@
+# Node modules (thư viện cài bằng npm)
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Môi trường làm việc (không cần push)
+.DS_Store
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Log files (log của ứng dụng)
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Thư mục build hoặc cache
+dist/
+build/
+.cache/
+
+# IDE / Editor files (file của VSCode, JetBrains...)
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# PostgreSQL (Railway tự cấp DATABASE_URL)
+pgdata/
+postgres-data/
+dump.sql
+
+# Docker (nếu có)
+docker-compose.override.yml
